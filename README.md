@@ -2,9 +2,6 @@ We start with the basics.
 
 Here is a refresher - 
 
-* You start with `npm init`. That creates a `package.json` file. 
-* After that, you can install multiple modules as per your need. For scraping, we are using `request` and `cheerio`. So you run
-    `npm install --save request cheerio`
-    
-    The `--save` flag adds the modules to your `package.json` file for future use. 
+* run `npm install`. Since you have a package.json file in the folder with certain modules listed, it installs `cheerio` and `request`.
 
+* You have an index.js file which is where we will write all our code.
